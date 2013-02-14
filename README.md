@@ -14,6 +14,8 @@ How to use
   $result = $segment->get_segment_array("คำที่ต้องการตัด");
 
   echo implode(' | ', $result);
+  
+  จะได้ Output คือ คำ | ที่ | ต้องการ | ตัด
 
 
 คุณสามารถนำไปใช้ได้สำหรับทุก Web Application ทุกชนิดที่คุณต้องการ
