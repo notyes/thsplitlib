@@ -6,13 +6,13 @@ Lib ตัดคำภาษาไทย สำหรับ PHP
 How to use
 ==========
 
-// Include Lib //
-include(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'THSplitLib/segment.php');
-// New from Class Segment
+
+  include(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'THSplitLib/segment.php');
+
   $segment = new Segment();
-// Call Function get_segment_array()
+
   $result = $segment->get_segment_array("คำที่ต้องการตัด");
-// ทดสอบ
+
   echo implode(' | ', $result);
 
 
