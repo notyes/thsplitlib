@@ -17,8 +17,13 @@ class Segment {
     
     
     function __construct() {
+        if (!class_exists('Thchracter')) {
         include(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'thcharacter.php');
+		}
+		
+		if (!class_exists('Unicode')) {
         include(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'unicode.php');
+		}
 
 
         $file_handle = fopen(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'dictionary' . DIRECTORY_SEPARATOR . 'dictionary.txt', "rb");
