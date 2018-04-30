@@ -1,0 +1,14 @@
+{
+    "name": "notyes/thsplitlib",
+    "description": "Lib ตัดคำภาษาไทย สำหรับ PHP in composer",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0" : {
+            "thsplitlib" : "THSplitLib/"
+        }
+    }
+}

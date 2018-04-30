@@ -18,8 +18,18 @@ How to use
   จะได้ Output คือ คำ | ที่ | ต้องการ | ตัด
 
 
-คุณสามารถนำไปใช้ได้สำหรับทุก Web Application ทุกชนิดที่คุณต้องการ
-แต่หากนำไปใช้เพื่อเชิงพานิชย์ กรุณา บอกเราด้วยครับที่ suwichalala@gmail.com
+ส่วนนี้ขออนุณาติปรับเข้าไปใส่ใน Composer นะครับ 
 
-หากมีข้อสงสัย หรือ สอบถามสามารถแจ้งได้ที่ suwichalala@gmail.com
-ขอบคุณครับ
+
+```php
+use thsplitlib\Segment;
+
+require 'vendor/autoload.php';
+
+$data = Segment();
+
+$data->get_segment_array($text_to_segment);
+
+
+```
+
