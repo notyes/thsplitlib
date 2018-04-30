@@ -6,6 +6,9 @@
  * Email: suwichalala@gmail.com
  * Website: http://www.projecka.com
  */
+
+namespace src\THSplitLib;
+
 class Segment {
 
     private $_input_string;

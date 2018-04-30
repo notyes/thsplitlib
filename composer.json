@@ -7,8 +7,8 @@
         "php": ">=7.0"
     },
     "autoload": {
-        "psr-4" : {
-            "thsplitlib" : "THSplitLib/"
+        "psr-0" : {
+            "thsplitlib" : "src/THSplitLib"
         }
     }
 }
